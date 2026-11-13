@@ -64,3 +64,14 @@ The following workflow was manually tested:
 
 ## Author
 Developed by Nida Rasoool.
+
+## Testing Screenshots
+
+### Booking Successful
+![Booking Success](screenshots/booking-success.png)
+
+### Admin Status Update
+![Admin Update](screenshots/admin-update.png)
+
+### Booking Status Tracking
+![Tracking Status](screenshots/tracking-status.png)
