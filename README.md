@@ -63,4 +63,4 @@ The following workflow was manually tested:
 - Connect the contact form to a backend service.
 
 ## Author
-Developed by Nida Rasool.
+Developed by Nida Rasoool.
