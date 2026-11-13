@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ServiceHub | Track Booking</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <img src="./images/logo.png" alt="ServiceHub Logo">
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="admin.html">Admin</a>
+                </li>
+                <li>
+                    <a href="tracking.html" class="active">Track Booking</a>
+                </li>
+                <a href="booking.html" class="nav-btn">Book Now</a>
+            </ul>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Tracking Hero -->
+    <section class="tracking-hero">
+
+        <div class="tracking-hero-content">
+
+            <span>TRACK YOUR SERVICE</span>
+
+            <h1>Stay Updated on Your Booking</h1>
+
+            <p>
+                Easily check your home service booking status
+                and stay informed about every step.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Tracking Form -->
+    <section class="tracking-section">
+
+        <div class="tracking-heading">
+
+            <span>BOOKING STATUS</span>
+
+            <h2>Track Your Booking</h2>
+
+            <p>
+                Enter your booking ID below to check your service status.
+            </p>
+
+        </div>
+
+
+        <div class="tracking-box">
+
+            <div class="tracking-icon">
+                <i class="fa-solid fa-location-crosshairs"></i>
+            </div>
+
+            <h3>Enter Booking Details</h3>
+
+            <p>Find your booking ID in your booking confirmation.</p>
+
+            <form id="tracking-form">
+
+                <label for="tracking-id">Booking ID</label>
+
+                <input type="text" id="tracking-id" placeholder="e.g. SH-2026-001" required>
+
+                <button type="button" id="tracking-btn">
+                    Track Booking
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <p class="tracking-message" id="tracking-message"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Tracking Result -->
+    <section class="tracking-result" id="tracking-result">
+
+        <!-- Result will appear here through JavaScript -->
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <img src="./images/logo.png" alt="ServiceHub Logo" class="footer-logo">
+
+                <p>
+                    Your trusted partner for all home services.
+                    We make finding reliable professionals simple
+                    and convenient.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="service.html">Service</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="tracking.html">Track Booking</a>
+                <a href="admin.html">Admin</a>
+                <a href="booking.html">Booking Now</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Our Services</h3>
+                <a href="service.html#cleaning">Cleaning</a>
+                <a href="service.html#plumbing">Plumbing</a>
+                <a href="service.html#electrical">Electrical</a>
+                <a href="service.html#ac-repair">AC Repair</a>
+                 <a href="service.html#painting">Painting</a>
+                <a href="service.html#carpentry">Carpentry</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+               <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@servicehub.com">
+                        info@servicehub.com
+                    </a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+923001234567">
+                        +92 300 1234567
+                    </a></p>
+                <p><i class="fa-solid fa-location-dot"></i> Pakistan</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ServiceHub. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
